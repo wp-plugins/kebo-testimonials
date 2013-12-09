@@ -1,0 +1,74 @@
+/*
+ * Kebo Testimonials - Admin Styles
+ */
+
+/*
+ * Custom Mixins
+ */
+@import "misc/mixins";
+
+/*
+ * Admin Menu Icon
+ */
+@import "misc/admin-icon";
+
+/*
+ * Admin - Post Meta
+ */
+
+#kbte_reviewer_name,
+#kbte_reviewer_email,
+#kbte_reviewer_url {
+        width: 100%;
+}
+
+/*
+ * Rating System
+ */
+@import "misc/ratings";
+
+/*
+ * Testimonials Listing
+ */
+.post-type-kbte_testimonials .fixed .column-details {
+        width: 15%;
+}
+.post-type-kbte_testimonials .fixed .column-rating {
+        width: 10%;
+}
+
+/*
+ * Settings Page
+ */
+.kbte_testimonials_page_kbte-testimonials .kresponsivecolumns {
+        margin-right: 2em;
+}
+.kbte_testimonials_page_kbte-testimonials .kresponsivecolumns:last-of-type {
+        margin-right: 0;
+}
+.kbte_testimonials_page_kbte-testimonials .antispam {
+         margin-right: 6px;
+}
+
+/*
+ * Widget Options Form
+ */
+div[id*='_kbte_testimonials_'] .kfield {
+        clear: both;
+}
+div[id*='_kbte_testimonials_'] .kfield label {
+        float: left;
+}
+div[id*='_kbte_testimonials_'] .kfield label:first-of-type {
+        width: 45%;
+}
+div[id*='_kbte_testimonials_'] .kfield label:first-of-type input {
+        float: right;
+}
+div[id*='_kbte_testimonials_'] .kfield label:last-of-type {
+        width: 40%;
+        margin-left: 10%;
+}
+div[id*='_kbte_testimonials_'] .kfield label:last-of-type input {
+        float: right;
+}

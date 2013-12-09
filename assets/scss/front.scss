@@ -1,0 +1,179 @@
+/*
+ * Kebo Testimonials - Frontend Styles
+ */
+
+/*
+ * Custom Mixins
+ */
+@import "misc/mixins";
+
+/*
+ * Rating System
+ */
+@import "misc/ratings";
+
+/*
+ * Kebo Grid
+ */
+@import "misc/kebogrid";
+
+/*
+ * Testimonials
+ */
+.kcontainer {
+        overflow: hidden;
+}
+.ktestimonials {
+        margin: 1em 0;
+}
+.ktestimonials,
+.ktestimonials * {
+    @include box-sizing();
+}
+.ktestimonials .page-title {
+        margin: 0 0 1em 0;
+        padding: 0 0.625rem;
+}
+.ktestimonials .kcontentbefore {
+        padding: 0 0.625rem;
+}
+.ktestimonials .ktestimonial {
+        width: 100%;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+}
+.ktestimonials .ktestimonial .kbody {
+        border: 1px solid #ccc;
+        padding: 1em;
+        background: #fff;
+        position: relative;
+}
+.ktestimonials .ktestimonial.has-name .kbody:before {
+    border-color: #DDDDDD rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-width: 12px 11px 11px;
+    content: "";
+    height: 0;
+    right: 39px;
+    position: absolute;
+    top: 100%;
+    width: 0;
+}
+.ktestimonials .ktestimonial.has-name .kbody:after {
+    border-color: #FFFFFF rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-width: 10px;
+    content: "";
+    height: 0;
+    right: 40px;
+    position: absolute;
+    top: 100%;
+    width: 0;
+}
+.ktestimonial .kheader {
+        
+}
+.ktestimonial .kcontent {
+        margin: 1em 0 0 0;
+}
+.ktestimonial .kcontent p {
+        margin: 1em 0;
+}
+.ktestimonial .kcontent p:first-of-type {
+        margin-top: 0;
+}
+.ktestimonial .kcontent p:last-of-type {
+        margin-bottom: 0;
+}
+.ktestimonial .kcontent img {
+        float: left;
+        margin: 0 1em 1em 0;
+        margin-top: 4px;
+}
+.ktestimonial .kfooter {
+        clear: both;
+        padding: 1em 1em 0 1em;
+}
+.ktestimonial .kfooter .krating {
+        width: 50%;
+        float: left;
+        padding-top: 3px;
+}
+.ktestimonial .kfooter .kauthor {
+        width: 50%;
+        float: right;
+        text-align: right;
+}
+
+/*
+ * General Form
+ */
+
+.ktestimonialform {
+        
+}
+.ktestimonialform,
+.ktestimonialform * {
+    @include box-sizing();
+}
+.ktestimonialform label {
+        display: block;
+        margin-bottom: 0.5em;
+}
+.ktestimonialform input,
+.ktestimonialform textarea {
+        width: 100%;
+        margin-bottom: 1em;
+}
+.ktestimonialform .error input,
+.ktestimonialform .error textarea {
+        margin-bottom: 0;
+}
+.ktestimonialform .error {
+        display: block;
+}
+.ktestimonialform .kmessage {
+        font-size: 0.8em;
+        padding: 0.4em 0.8em;
+        border: 1px solid #ccc;
+        margin-bottom: 1em;
+        text-align: center;
+}
+.ktestimonialform .kmessage.error {
+        background: #FF9E9E;
+        border-color: darken( #FF9E9E, 10% );
+}
+.ktestimonialform .kmessage.success {
+        background: #9EFFA1;
+        border-color: darken( #9EFFA1, 50% );
+}
+
+/*
+ * Pagination
+ */
+.kpagination {
+        text-align: center;
+        margin-bottom: 2em;
+}
+.kpagination .page-numbers {
+        border: 1px solid #ccc;
+        padding: 0.2em 0.6em;
+        background: #fff;
+}
+.kpagination .page-numbers.current {
+        border: 1px solid #bbb;
+        padding: 0.2em 0.6em;
+        background: #bbb;
+        color: #fff;
+}
+.kpagination .page-numbers:hover:not(.current):not(.dots) {
+        border-color: #aaa;
+        background: #fefefe;
+}
+
+
+/*
+ * Foundation Abide - Error Styles
+ */
+@import "misc/abide";
