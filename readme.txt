@@ -17,6 +17,9 @@ The hassle free design means you can get it working in minutes. Display Testimon
 This plugin is still very early in its development, so you may experience
 issues during use. While I cannot promise you will have no problems, I
 will resolve problems quickly once identified.
+
+Alternatively, give it a week or two and the rough edges will have been
+fixed and the polish added.
 `
 
 = Why use Kebo Testimonials? =
