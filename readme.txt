@@ -14,7 +14,9 @@ The easiest way to display and receive Testimonials on your website.
 The hassle free design means you can get it working in minutes. Display Testimonials beautifully and compatible with responsive sites. Allow users to submit Testimonials using the handy Widget and Shortcode forms.
 
 `
-This plugin is still very early in its development, so you may experience issues during use. While I cannot promise you will have no problems, I will resolve problems quickly once identified.
+This plugin is still very early in its development, so you may experience
+issues during use. While I cannot promise you will have no problems, I
+will resolve problems quickly once identified.
 `
 
 = Why use Kebo Testimonials? =
